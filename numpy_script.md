@@ -21,20 +21,14 @@ Axes are defined for arrays with more than one dimension. A 2-dimensional array 
 ```python
 #From a Python list
 
-my_list = [1,2,3]
-my_list
+>>>my_list = [1,2,3]
+>>>my_list
 
-arr = np.array(my_list)
-arr
+>>>arr = np.array(my_list)
+>>>arr
+array([1, 2, 3])
+
 ```
-
-
-
-
-  > array([1, 2, 3])
-
-
-
 
 ```python
 #From a Python matrix
