@@ -1,11 +1,11 @@
-## Portfolio
+## Projects
 
 ---
 
-### Category Name 1 
+### Python libraries for Data Science
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Library: NumPy](/sample_page)
+<img src="NumPy codes.ipynb"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
