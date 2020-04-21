@@ -4,7 +4,7 @@
 
 ### Python libraries for Data Science
 
-[Library: NumPy](/numpy_script.md)
+[Library: NumPy](/NumPy codes.ipynb)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
