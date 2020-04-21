@@ -5,7 +5,6 @@
 ### Python libraries for Data Science
 
 [Library: NumPy](/sample_page)
-<img src="NumPy codes.ipynb"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
