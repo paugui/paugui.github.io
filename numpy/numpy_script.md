@@ -1,7 +1,6 @@
 # NumPy Library
 [Official website](https://numpy.org/)
 
-hello hello
 
 * NumPy is the most basic yet a powerful package for scientific computing and data manipulation in Python. 
 * It helps as to do the mathematical and scientific operation and used extensively in data science. 
