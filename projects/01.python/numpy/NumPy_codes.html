@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>NumPy codes</title>
+<title>NumPy_codes</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Installation">Installation<a class="anchor-link" href="#Installation">&#182;</a></h1>
+<h1 id="Library:-NumPy">Library: NumPy<a class="anchor-link" href="#Library:-NumPy">&#182;</a></h1><h1 id="Installation">Installation<a class="anchor-link" href="#Installation">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -13100,8 +13100,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Numpy-Arrays">Numpy Arrays<a class="anchor-link" href="#Numpy-Arrays">&#182;</a></h1><p>A homogeneous container of numerical elements. Each element can be a numerical element of a single type (such as float, int or complex) or a combination (such as (float, int, float)). Each array has an associated data-type (or dtype), which describes the numerical type of its elements.</p>
-<p>Axes are defined for arrays with more than one dimension. A 2-dimensional array has two corresponding axes: the first running vertically downwards across rows (axis 0), and the second running horizontally across columns (axis 1).</p>
+<h1 id="Numpy-Arrays">Numpy Arrays<a class="anchor-link" href="#Numpy-Arrays">&#182;</a></h1><ul>
+<li><p>A homogeneous container of numerical element of a single type.</p>
+</li>
+<li><p>Arrays can have 1 dimension (similar to python lists) or 2 dimensions (similar to python matrix).</p>
+</li>
+<li><p>Axes are defined for arrays with more than one dimension: the first running vertically downwards across rows (axis 0), and the second running horizontally across columns (axis 1).</p>
+</li>
+</ul>
 <h2 id="Creating-NumPy-Arrays">Creating NumPy Arrays<a class="anchor-link" href="#Creating-NumPy-Arrays">&#182;</a></h2>
 </div>
 </div>
@@ -13331,7 +13337,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="zeros-and-ones">zeros and ones<a class="anchor-link" href="#zeros-and-ones">&#182;</a></h3>
+<h2 id="zeros-and-ones">zeros and ones<a class="anchor-link" href="#zeros-and-ones">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13646,11 +13652,11 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[0.10382178, 0.69555736, 0.52621678, 0.13558955, 0.40931094],
-       [0.17377941, 0.11260251, 0.77489995, 0.61008625, 0.43381661],
-       [0.0807354 , 0.26016251, 0.36784511, 0.18487666, 0.33346894],
-       [0.39366213, 0.70632508, 0.66687308, 0.25197824, 0.64699054],
-       [0.25713932, 0.87999424, 0.08424412, 0.49925053, 0.19104377]])</pre>
+<pre>array([[0.9797668 , 0.94586434, 0.36524117, 0.19784975, 0.15176004],
+       [0.09277052, 0.90938651, 0.52618724, 0.62981716, 0.5111796 ],
+       [0.96197826, 0.48489467, 0.14034696, 0.69334539, 0.33582117],
+       [0.69485323, 0.93141817, 0.03266454, 0.1680806 , 0.49473144],
+       [0.19240705, 0.50925566, 0.07623005, 0.34016356, 0.66179273]])</pre>
 </div>
 
 </div>
@@ -13685,11 +13691,11 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.40541877, -0.21395784,  0.29996878, -0.14082343,  0.09907231],
-       [ 1.26923013,  0.88017613, -1.07796968,  0.77183127,  2.05578139],
-       [-0.9047137 ,  0.8387989 ,  1.47703857, -0.94809133, -0.34119404],
-       [ 1.45288141,  0.93233332, -0.06779078,  1.20582055, -0.21636915],
-       [ 0.21778097, -0.53526505, -1.78121915,  0.04328806, -0.36518623]])</pre>
+<pre>array([[-1.58666343,  0.85040663, -0.27919152,  0.01841439,  0.75435485],
+       [ 0.89726612,  0.69130702, -1.13555545, -0.66225676,  0.70258642],
+       [ 1.44323687, -0.34104132,  0.83226325, -1.37563275,  2.36230149],
+       [-0.20648663,  1.00273908, -0.56658769, -1.49940631,  2.05278195],
+       [-0.80371781,  0.59568719, -1.63747353, -1.14329534, -0.69771396]])</pre>
 </div>
 
 </div>
@@ -13724,7 +13730,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([ 3, 42,  2,  7, 36, 32,  5, 63, 33, 93])</pre>
+<pre>array([76,  9, 67, 24, 16, 89, 54, 23, 31, 87])</pre>
 </div>
 
 </div>
@@ -13800,7 +13806,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([12, 48, 42, 16, 34, 47, 18, 32, 38, 15])</pre>
+<pre>array([11, 49, 21,  5, 45, 32, 36, 41, 16, 28])</pre>
 </div>
 
 </div>
@@ -13833,11 +13839,11 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[12, 48],
-       [42, 16],
-       [34, 47],
-       [18, 32],
-       [38, 15]])</pre>
+<pre>array([[11, 49],
+       [21,  5],
+       [45, 32],
+       [36, 41],
+       [16, 28]])</pre>
 </div>
 
 </div>
@@ -13870,7 +13876,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>48</pre>
+<pre>49</pre>
 </div>
 
 </div>
@@ -13936,7 +13942,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>12</pre>
+<pre>5</pre>
 </div>
 
 </div>
@@ -13969,7 +13975,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0</pre>
+<pre>3</pre>
 </div>
 
 </div>
