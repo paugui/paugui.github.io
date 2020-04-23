@@ -1,6 +1,6 @@
 # Condiciones de la vivienda en Ecuador 
 
-## Notas
+## Notas disponibles
 [Visualizaciones completas](./NumPy_codes.ipynb)
 <br>
 [Publicación ISI 2017](./Ecuador/Using_Knoweldge_Discovery_approach_to_understand_l.pdf)

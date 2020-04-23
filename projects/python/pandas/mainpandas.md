@@ -1,6 +1,6 @@
 # Library: Pandas
 
-## Notes
+## Available notes
 [Jupyter visualization](./NumPy_codes.html)
 <br>
 [Download Jupyter notebook](./NumPy_codes.ipynb)
