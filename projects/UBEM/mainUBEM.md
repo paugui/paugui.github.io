@@ -1,11 +1,11 @@
 # Urban Building Energy Model (UBEM)
 
 ## Available notes
-[Results displayed in Carto](https://paugui.carto.com/builder/8c989326-6329-4bf4-92a4-d05776f2b054/embed)
+* [Results displayed in Carto](https://paugui.carto.com/builder/8c989326-6329-4bf4-92a4-d05776f2b054/embed)
 <br>
-[Paper presented in USIM2018](./uSIM_paper.pdf)
+* [Paper presented in USIM2018](./uSIM_paper.pdf)
 <br>
-[Master's thesis (Spanish)](https://upcommons.upc.edu/handle/2117/123084)
+* [Master's thesis (Spanish)](https://upcommons.upc.edu/handle/2117/123084)
 <br><br>
 
 

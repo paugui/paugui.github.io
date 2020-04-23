@@ -1,9 +1,9 @@
 # Library: NumPy
 
 ## Available notes
-[Jupyter visualization](./NumPy_codes.html)
+* [Jupyter visualization](./NumPy_codes.html)
 <br>
-[Download Jupyter notebook](./NumPy_codes.ipynb)
+* [Download Jupyter notebook](./NumPy_codes.ipynb)
 <br><br><br>
 ## Information
 * NumPy is the most basic yet a powerful package for scientific computing and data manipulation in Python.
@@ -23,6 +23,6 @@ Arrays can have 1 dimension (similar to python lists).
 
 
 ## Links of interest
-[Official website](https://numpy.org/)
+[NumPy Official website](https://numpy.org/)
 <br>
-[Official quickstart tutorial](https://numpy.org/devdocs/user/quickstart.html)
+[Quickstart tutorial](https://numpy.org/devdocs/user/quickstart.html)

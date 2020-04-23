@@ -1,9 +1,9 @@
 # Library: Pandas
 
 ## Available notes
-[Jupyter visualization](./NumPy_codes.html)
+* [Jupyter visualization](./NumPy_codes.html)
 <br>
-[Download Jupyter notebook](./NumPy_codes.ipynb)
+* [Download Jupyter notebook](./NumPy_codes.ipynb)
 <br><br><br>
 ## Information
 * NumPy is the most basic yet a powerful package for scientific computing and data manipulation in Python.
@@ -27,6 +27,5 @@ Two-dimensional, size-mutable, potentially heterogeneous tabular data, also cont
 
 
 ## Links of interest
-[Official website](https://pandas.pydata.org)
+[Pandas Official website](https://pandas.pydata.org)
 <br>
-[Official quickstart tutorial](https://numpy.org/devdocs/user/quickstart.html)
