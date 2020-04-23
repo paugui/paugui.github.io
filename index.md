@@ -2,9 +2,9 @@
 
 ---
 
-### [Python for Data Science](./python/mainpython.md)
+### [Python for Data Science](./projects/python/mainpython.md)
 
-[Basic Python](./projects/python/mainpython.md)
+[Basic Python](./projects/python/basicpython/mainbasic.md)
 <br>
 [Library: NumPy](./projects/python/numpy/mainnumpy.md)
 <br>
