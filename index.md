@@ -22,9 +22,9 @@ This document presents an experience on a case study in Andorra that proposes a 
 ### Condiciones de vida en Ecuador
 El trabajo busca analizar las condiciones de vida de la población de las distintas regiones de Ecuador, centrando su atención en las condiciones de acceso a la vivienda y a los servicios básicos.
 <br>
-[Check the notes](./projects/Ecuador/mainEcuador.md)
 <br><br>
 ![dendogram](.\projects\Ecuador\dendogram.png)
+[Check the notes](./projects/Ecuador/mainEcuador.md)
 
 ---
 
