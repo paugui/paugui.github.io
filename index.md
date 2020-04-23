@@ -24,19 +24,11 @@ El trabajo busca analizar las condiciones de vida de la población de las distin
 <br>
 <br><br>
 ![dendogram](.\projects\Ecuador\dendogram.png)
+<br>
 [Check the notes](./projects/Ecuador/mainEcuador.md)
 
 ---
 
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
 
 
 

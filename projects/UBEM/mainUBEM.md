@@ -20,7 +20,6 @@ The aim of this wirk was to build the foundations for **Urban Building Energy Mo
 ![UBEM](./workflow.png)
 
 <iframe width="100%" height="520" frameborder="0" src="https://paugui.carto.com/builder/8c989326-6329-4bf4-92a4-d05776f2b054/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 <br>
 
 #### Key words: 
@@ -29,4 +28,4 @@ Climate Change, Urban modeling, Energy planning, Hierarchical Cluster, Building 
 ## Links of interest
 [uSIM 2018 Proceedings](http://www.ibpsa.org/usim-2018-proceedings/)
 <br>
-[Official quickstart tutorial](https://numpy.org/devdocs/user/quickstart.html)
+[CARTO official page](https://carto.com/)
