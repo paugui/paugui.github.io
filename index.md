@@ -2,16 +2,20 @@
 
 ---
 
-### Python libraries for Data Science
+### Python for Data Science
 
-[Library: NumPy](./projects/01.python/numpy/numpy_script.md)
+[Basic Python](./projects/python/mainpython.md)
+<br>
+[Library: NumPy](./projects/python/numpy/mainnumpy.md)
+<br>
+[Library: Pandas](./projects/python/numpy/mainpandas.md)
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Urban Building Energy Model (UBEM)](./projects/UBEM/mainUBEM.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Housing conditions in Ecuator](./projects/ecuador/mainEcuador.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
