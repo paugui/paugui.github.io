@@ -16,6 +16,7 @@ Hope you can make a good use of it!
 
 * [Library: Pandas](./projects/python/numpy/mainpandas.md)
 <br><br><br>
+
 ## Links of interest
 [Python Official website](https://www.python.org/)
 <br>

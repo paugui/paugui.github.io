@@ -4,6 +4,8 @@
 
 ### [Python for Data Science](./projects/python/mainpython.md)
 
+My learning notes.
+<br>
 [Basic Python](./projects/python/basicpython/mainbasic.md)
 <br>
 [Library: NumPy](./projects/python/numpy/mainnumpy.md)

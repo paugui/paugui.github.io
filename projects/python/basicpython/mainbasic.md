@@ -1,4 +1,4 @@
-### Basic Python
+# Basic Python
 
 ## Available notes
 
@@ -8,7 +8,9 @@
 <br><br><br>
 
 ## Information
-
+The notes include data types, indexing, basic methods and functions.
+<br> <br>
+![capture](./capture.png)
 ## Links of interest
 [Python Official website](https://www.python.org/)
 <br>
