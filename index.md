@@ -18,7 +18,7 @@ My learning notes.
 
 Basic example to create a database, tables, and explore it with queries.
 
-[Basic example: Alfajores.db](./projects/python/basicpython/mainbasic.md)
+[Basic example: Alfajores.db](./projects/SQL/SQL_example.html)
 
 
 
