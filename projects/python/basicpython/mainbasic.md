@@ -5,7 +5,7 @@
 * [Jupyter visualization](./Python_codes.html)
 <br>
 * [Download Jupyter notebook](./Python_codes.ipynb)
-<br><br><br>
+<br><br>
 
 ## Information
 The notes include data types, indexing, basic methods and functions.
