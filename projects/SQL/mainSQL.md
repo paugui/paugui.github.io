@@ -1,24 +1,28 @@
 # SQL
 
 ## Available notes
-Basic example: alfajores.db
+__Basic example: alfajores.db__ <br><br>
+The example runs in Jupyter using the library [sqlalchemy](https://www.sqlalchemy.org/). 
+
+If it is executed in a SQL environment, the first steps can be skiped and there is no need of '%%sql' in every cell.
+
+Every jupyter cell represents a query in SQL.
 * [Jupyter visualization](./SQL_example.html)
 <br>
 * [Download Jupyter notebook](./SQL_example.ipynb)
-<br><br><br>
+<br><br>
 
 
 ## Information
-The example runs in Jupyter using the library [sqlalchemy](https://www.sqlalchemy.org/). If it is executed in a SQL environment, the first steps can be skiped and there is no need of '%%sql' in every cell.
-Every jupyter cell represents a query in SQL.
-
+SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
 
 ## Basic elements
-SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
 
 ### Relational database
 A database is a set of data stored in a computer. This data is usually structured in a way that makes the data easily accessible.<br><br>
 A relational database is a type of database. It uses a structure that allows us to identify and access data in relation to another piece of data in the database.
+
+![relational_database](./diagram.png)
  
 ### Table
 A relational database system contains one or more objects called tables. The data or information for the database are stored in these tables.<br><br>

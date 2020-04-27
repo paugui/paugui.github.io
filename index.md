@@ -20,6 +20,9 @@ Basic example to create a database, tables, and explore it with queries.
 
 [Basic example: Alfajores.db](./projects/SQL/SQL_example.html)
 
+---
+### [R](./projects/R/mainR.md)
+
 
 
 
