@@ -14,7 +14,7 @@ Hope you can make a good use of it!
 * [Library: NumPy](./projects/python/numpy/mainnumpy.md)
 <br>
 
-* [Library: Pandas](./projects/python/numpy/mainpandas.md)
+* [Library: Pandas](./projects/python/pandas/mainpandas.md)
 <br><br><br>
 
 ## Links of interest
