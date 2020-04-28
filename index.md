@@ -11,7 +11,7 @@ My learning notes.
 <br>
 [Library: Pandas](./projects/python/pandas/mainpandas.md) 
 <br>
-<div align="right"><sub>Last update: 28.04.20<sub></div>
+<div align="right"><sub>Last update: 28.04.20</sub></div>
 
 ---
 ### [SQL](./projects/SQL/mainSQL.md)
@@ -19,7 +19,7 @@ My learning notes.
 Basic example to create a database, tables, and explore it with queries.
 
 >[Basic example: Alfajores.db](./projects/SQL/SQL_example.html) 
-<div align="right"><sub>Last update: 27.04.20<sub></div>
+<div align="right"><sub>Last update: 27.04.20</sub></div>
 
 ---
 ### [Photovoltaic Energy](./projects/PV/mainPV.md)
@@ -27,13 +27,13 @@ Basic example to create a database, tables, and explore it with queries.
 Analysis of cases.
 
 >Case: [ Photovoltaic panels in Norway](./projects/PV/mainPV.md)
-<div align="right"><sub>Last update: 28.04.20<sub></div>
+<div align="right"><sub>Last update: 28.04.20</sub></div>
 
 ---
 ### [R](./projects/R/mainR.md)
 
 Strategies of Data Analysis applied with R.
-<div align="right"><sub>Last update: 27.04.20<sub></div>
+<div align="right"><sub>Last update: 27.04.20</sub></div>
 
 ---
 
