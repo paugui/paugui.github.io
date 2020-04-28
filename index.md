@@ -25,7 +25,8 @@ Basic example to create a database, tables, and explore it with queries.
 
 Analysis of cases.
 
-* [Photovoltaic panels in Norway](./projects/PV/mainPV.md)
+Case: [ Photovoltaic panels in Norway](./projects/PV/mainPV.md)
+
 ---
 ### [R](./projects/R/mainR.md)
 
