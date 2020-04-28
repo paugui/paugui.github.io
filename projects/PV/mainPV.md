@@ -15,6 +15,3 @@ A product catalog (23.03.20 - 27.04.20) of Norwegian distribution was advertisin
 ![magazine](./Hytte_magazine.jpeg)
 
 ## Links of interest
-[SQLAlchemy](https://www.sqlalchemy.org/)
-<br>
-[SQLite](https://www.sqlite.org/index.html)

@@ -8,7 +8,7 @@ In the following links you can find my notes of python and its different librari
 Hope you can make a good use of it!
 
 ## Available notes
-* [Basic Python](./projects/python/mainpython.md)
+* [Basic Python](./projects/python/mainbasic.md)
 <br>
 
 * [Library: NumPy](./projects/python/numpy/mainnumpy.md)

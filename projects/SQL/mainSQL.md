@@ -2,7 +2,7 @@
 
 ## Available notes
 __Basic example: alfajores.db__ <br><br>
-The example runs in Jupyter using the library [sqlalchemy](https://www.sqlalchemy.org/). 
+The example runs in Jupyter using the library sqlalchemy. 
 
 If it is executed in a SQL environment, the first steps can be skiped and there is no need of '%%sql' in every cell.
 
