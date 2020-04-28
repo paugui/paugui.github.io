@@ -2,10 +2,10 @@
 
 ## Available notes
 
-* [Jupyter visualization](./Python_codes.html)
-<br>
-* [Download Jupyter notebook](./Python_codes.ipynb)
-<br><br>
+* [Jupyter visualization](./Python_codes.html) (Version 24.04.20)
+<br> 
+* [Download Jupyter notebook](./Python_codes.ipynb) (Version 24.04.20)
+<br><br> 
 
 ## Information
 The notes include data types, indexing, basic methods and functions.

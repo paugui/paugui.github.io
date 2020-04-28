@@ -1,17 +1,17 @@
 # SQL
 
 ## Available notes
-__Basic example: alfajores.db__ <br><br>
-The example runs in Jupyter using the library sqlalchemy. 
+__Basic example: alfajores.db__ <br>
 
-If it is executed in a SQL environment, the first steps can be skiped and there is no need of '%%sql' in every cell.
-
-Every jupyter cell represents a query in SQL.
-* [Jupyter visualization](./SQL_example.html)
+* [Jupyter visualization](./SQL_example.html) (Version 27.04.20)
 <br>
-* [Download Jupyter notebook](./SQL_example.ipynb)
+* [Download Jupyter notebook](./SQL_example.ipynb) (Version 27.04.20)
 <br><br>
-
+Observations <br>
+<sub>The example runs in Jupyter using the library sqlalchemy. <br>
+If it is executed in a SQL environment, the first steps can be skiped and there is no need of '%%sql' in every cell.<br>
+Every jupyter cell represents a query in SQL.<sub>
+<br><br>
 
 ## Information
 SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
