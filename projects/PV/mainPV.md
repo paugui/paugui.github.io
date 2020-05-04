@@ -1,9 +1,9 @@
 # Photovoltaic panels in Norway
 
 ## Available notes
-* [Jupyter visualization](./PV_Norway.html)
+* [Jupyter visualization](./PV_Finnmark.html) (in progress)
 <br>
-* [Download Jupyter notebook](./PV_Norway.ipynb)
+* [Download Jupyter notebook](./PV_Finnmark.ipynb) (in progress)
 <br><br>
 
 ## Information
@@ -15,4 +15,6 @@ A product catalog (23.03.20 - 27.04.20) of Norwegian distribution was advertisin
 ![magazine](./Hytte_magazine.jpeg)
 
 ## Links of interest
-
+[Enova](https://www.enova.no/privat/alle-energitiltak/solenergi/el-produksjon-/)<br>
+[Energifakta Norge](https://energifaktanorge.no/en/norsk-energibruk/energibruken-i-ulike-sektorer/)<br>
+[Nasa Climatology Data](https://power.larc.nasa.gov/data-access-viewer/)
