@@ -34,7 +34,7 @@ Analysis of cases.
 * Case: [ Photovoltaic panels in Norway](./projects/PV/mainPV.md)
 <br><br>
 
-<div align="right"><sub>Last update: 27.04.20</sub></div>
+<div align="right"><sub>Last update: 04.05.20</sub></div>
 
 ---
 ## [R](./projects/R/mainR.md)
