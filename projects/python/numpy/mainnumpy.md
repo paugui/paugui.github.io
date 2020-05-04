@@ -6,7 +6,8 @@
 <br>
 * [Download Jupyter notebook](./NumPy_codes.ipynb) (Version 22.04.20)
 <br>
-<br><br><br>
+<br><br>
+
 ## Information
 * NumPy is the most basic yet a powerful package for scientific computing and data manipulation in Python.
 <br>

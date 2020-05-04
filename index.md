@@ -27,11 +27,11 @@ Basic examples of how to create a database, tables, and how to explore it with q
 <div align="right"><sub>Last update: 28.04.20</sub></div>
 
 ---
-## [Photovoltaic Energy](./projects/PV/mainPV.md)
+## [Photovoltaic Energy](./projects/PV/mainPV.md) 
 
 Analysis of cases.
 
-* Case: [ Photovoltaic panels in Norway](./projects/PV/mainPV.md)
+* Case: [ Photovoltaic panels in Norway](./projects/PV/mainPV.md) (in progress)
 <br><br>
 
 <div align="right"><sub>Last update: 04.05.20</sub></div>
@@ -39,7 +39,7 @@ Analysis of cases.
 ---
 ## [R](./projects/R/mainR.md)
 
-Strategies of Data Analysis applied with R.
+Strategies of Data Analysis applied with R. (in progress)
 <br><br>
 
 ---
