@@ -1,6 +1,6 @@
 # Projects
 
-<div align="right"><sub>Last update: 28.04.20</sub></div>
+<div align="right"><sub>Last update: 11.05.20</sub></div>
 
 ---
 ## [Python for Data Science](./projects/python/mainpython.md)
@@ -12,6 +12,8 @@ My learning notes.
 * [Library: NumPy](./projects/python/numpy/mainnumpy.md)
 <br>
 * [Library: Pandas](./projects/python/pandas/mainpandas.md) 
+<br>
+* [Library: MatPlotLib](./projects/python/matplotlib/mainplt.md) 
 <br><br>
 
 <div align="right"><sub>Last update: 27.04.20</sub></div>

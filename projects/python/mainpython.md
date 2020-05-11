@@ -15,6 +15,9 @@ Hope you can make a good use of it!
 <br>
 
 * [Library: Pandas](./pandas/mainpandas.md) 
+<br>
+
+* [Library: MatPlotLib](./matplotlib/mainplt.md) 
 <br><br><br>
 
 ## Links of interest
