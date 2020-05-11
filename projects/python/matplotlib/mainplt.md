@@ -1,4 +1,4 @@
-# Library: Pandas
+# Library: MatPlotLib
 
 ## Available notes
 * [Jupyter visualization](./MatPlotLib_codes.html) (Version 11.05.20)
