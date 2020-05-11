@@ -53,7 +53,6 @@ There is an enourmous variety of plots that can be performed with this tool:
 ![plot](https://matplotlib.org/_images/sphx_glr_whats_new_99_mplot3d_001.png)
 
 
-
 ## Links of interest
 [MatPlotLib Official website](https://matplotlib.org/)
 <br>
