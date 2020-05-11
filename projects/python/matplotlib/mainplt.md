@@ -12,6 +12,14 @@
 ## Examples
 There is an enourmous variety of plots that can be performed with this tool:
 
+**Simple Plot**
+( [link](https://matplotlib.org/gallery/lines_bars_and_markers/simple_plot.html#sphx-glr-gallery-lines-bars-and-markers-simple-plot-py) )
+![plot](https://matplotlib.org/_images/sphx_glr_simple_plot_0011.png)
+
+**Filling the area between lines**
+( [link](https://matplotlib.org/gallery/lines_bars_and_markers/fill_between_demo.html#sphx-glr-gallery-lines-bars-and-markers-fill-between-demo-py) )
+![plot](https://matplotlib.org/_images/sphx_glr_fill_between_demo_002.png)
+
 **Scatter plot**
 ( [link](https://matplotlib.org/gallery/shapes_and_collections/scatter.html#sphx-glr-gallery-shapes-and-collections-scatter-py) )
 ![plot](https://matplotlib.org/_images/sphx_glr_scatter_001.png)
@@ -23,14 +31,6 @@ There is an enourmous variety of plots that can be performed with this tool:
 **Scatter histogram**
 ( [link](https://matplotlib.org/gallery/axes_grid1/scatter_hist_locatable_axes.html#sphx-glr-gallery-axes-grid1-scatter-hist-locatable-axes-py) )
 ![plot](https://matplotlib.org/_images/sphx_glr_scatter_hist_locatable_axes_001.png)
-
-**Simple Plot**
-( [link](https://matplotlib.org/gallery/lines_bars_and_markers/simple_plot.html#sphx-glr-gallery-lines-bars-and-markers-simple-plot-py) )
-![plot](https://matplotlib.org/_images/sphx_glr_simple_plot_0011.png)
-
-**Filling the area between lines**
-( [link](https://matplotlib.org/gallery/lines_bars_and_markers/fill_between_demo.html#sphx-glr-gallery-lines-bars-and-markers-fill-between-demo-py) )
-![plot](https://matplotlib.org/_images/sphx_glr_fill_between_demo_002.png)
 
 **Nested pie charts**
 ( [link](https://matplotlib.org/gallery/pie_and_polar_charts/nested_pie.html#sphx-glr-gallery-pie-and-polar-charts-nested-pie-py) )
