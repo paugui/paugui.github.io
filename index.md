@@ -13,7 +13,9 @@ My learning notes.
 <br>
 * [Library: Pandas](./projects/python/pandas/mainpandas.md) 
 <br>
-* [Library: MatPlotLib](./projects/python/matplotlib/mainplt.md) 
+* [Library: MatPlotLib](./projects/python/matplotlib/mainplt.md)
+<br>
+* [Library: Seaborn](./projects/python/seaborn/mainseaborn.md) 
 <br><br>
 
 <div align="right"><sub>Last update: 27.04.20</sub></div>

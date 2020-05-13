@@ -18,6 +18,9 @@ Hope you can make a good use of it!
 <br>
 
 * [Library: MatPlotLib](./matplotlib/mainplt.md) 
+<br>
+
+* [Library: Seaborn](./seaborn/mainseaborn.md) 
 <br><br><br>
 
 ## Links of interest
