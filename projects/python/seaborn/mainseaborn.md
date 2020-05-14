@@ -1,10 +1,10 @@
 # Library: Seaborn
 
 ## Available notes
-* [Jupyter visualization](./Seaborn_codes.html) (Version 13.05.20)
+* [Jupyter visualization](./Seaborn_codes.html) (Version 14.05.20)
 <br>
 
-* [Download Jupyter notebook](./Seaborn_codes.ipynb) (Version 13.05.20)
+* [Download Jupyter notebook](./Seaborn_codes.ipynb) (Version 14.05.20)
 <br><br>
 
 ## Information
