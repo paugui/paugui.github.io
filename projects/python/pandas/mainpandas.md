@@ -1,9 +1,9 @@
 # Library: Pandas
 
 ## Available notes
-* [Jupyter visualization](./Pandas_codes.html) (Version 28.04.20)
+* [Jupyter visualization](./Pandas_codes.html) (Version 14.05.20)
 <br>
-* [Download Jupyter notebook](./Pandas_codes.ipynb) (Version 28.04.20)
+* [Download Jupyter notebook](./Pandas_codes.ipynb) (Version 14.05.20)
 <br><br><br>
 ## Information
 * Pandas is an open-source library built on top of numpy providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.

@@ -1,6 +1,6 @@
 # Projects
 
-<div align="right"><sub>Last update: 11.05.20</sub></div>
+<div align="right"><sub>Last update: 14.05.20</sub></div>
 
 ---
 ## [Python for Data Science](./projects/python/mainpython.md)
