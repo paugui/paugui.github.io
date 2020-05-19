@@ -10,7 +10,10 @@ Finalmente, tengo el tiempo para montar una pequeña huerta, pero las condicione
 ## El sitio
 La cuarentena me ha pillado lejos de casa, al norte de Noruega. Aquí los inviernos son noches que duran varios meses, en oposición a los veranos sin ocasos.
 
-<center><iframe seamless frameborder="0" src="https://public.tableau.com/views/WeatherFinnmark/Dashboard1?:showVizHome=no&:embed=true" width = '500' height = '850' scrolling='no' ></iframe></center>    
+![weather](./weather.png)
+Datos de temperatura, precipitaciones y radiación en 2019.
+[Link](https://public.tableau.com/views/WeatherFinnmark/Dashboard1?:display_count=y&:origin=viz_share_link)
+
 
 
 ## Links of interest
