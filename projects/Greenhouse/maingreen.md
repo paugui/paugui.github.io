@@ -10,7 +10,8 @@ Finalmente, tengo el tiempo para montar una pequeña huerta, pero las condicione
 ## El sitio
 La cuarentena me ha pillado lejos de casa, al norte de Noruega. Aquí los inviernos son noches que duran varios meses, en oposición a los veranos sin ocasos.
 
-<center><iframe seamless frameborder="0" src="https://public.tableau.com/views/WeatherFinnmark/Dashboard1?:display_count=y&:origin=viz_share_link" width = '500' height = '414' scrolling='yes' ></iframe></center>    
+
+<center><iframe seamless frameborder="0" src="https://public.tableau.com/views/WeatherFinnmark/Dashboard1?:showVizHome=no&:embed=true" width = '500' height = '414' ></iframe></center>    
 
 
 ## Links of interest
