@@ -32,6 +32,7 @@ Tables are uniquely identified by their names and are comprised of columns and r
 SQL, abbreviation for Structured Query Language,  is a standardized query language for requesting information from a database. In fact, outside of computing terminology, the words "query" and "question" can be used interchangeably.
 
 ## Links of interest
+[Stanford's SQL course](https://www.edx.org/es/course/databases-5-sql) <br>
 [SQLAlchemy](https://www.sqlalchemy.org/)
 <br>
 [SQLite](https://www.sqlite.org/index.html)
