@@ -14,7 +14,7 @@ If it is executed in a SQL environment, the first steps can be skiped and there 
 </sub><br>
 
 ## Information
-SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
+SQL is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
 
 ## Basic elements
 
