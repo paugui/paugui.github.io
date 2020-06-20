@@ -1,5 +1,15 @@
 # Projects
 
+<div align="right"><sub>Last update: 20.06.20</sub></div>
+
+---
+## [Automation for data collection](./projects/automation/mainautomation.md)
+
+Exercises of data collection.
+<br>
+* [Servicio Meteorológico Nacional](./projects/automation/meteodata/mainmeteodata.md) 
+<br><br>
+
 <div align="right"><sub>Last update: 14.05.20</sub></div>
 
 ---
