@@ -8,12 +8,12 @@ Disponible desde el 26.11.17, se actualiza diariamente.
 
 
 ### Available notes
-* [Jupyter visualization](./SMNdatoshorarios.html) (Version 20.06.20)
+* [Jupyter visualization](./SMNdatoshorarios.html) (Version 21.06.20)
 <br>
-* [Descargar Jupyter notebook](./SMNdatoshorarios.ipynb) (Version 20.06.20)
+* [Descargar Jupyter notebook](./SMNdatoshorarios.ipynb) (Version 21.06.20)
 <br>
-* [Descargar datos horarios en CSV (ejemplo)](./datosRosario.csv) <br>
-Datos correspondientes a la estación Rosario Aero (01.01.18 - 07.01.18).
+* [Descargar datos horarios en CSV](./datosRosario.csv) (ejemplo) <br>
+Datos correspondientes a la estación Rosario Aero (01.02.18 - 28.02.18).
 
 ## Radiación
 Datos minuto a minuto que se obtienen mediante la medición de la radiación solar y su interacción con la atmósfera.<br>
@@ -23,11 +23,12 @@ Disponible desde el 28.12.17, se actualiza diariamente.
 
 
 ### Available notes
-* [Jupyter visualization](./SMNdatosradiacion.html) (Version 20.06.20)
+* [Jupyter visualization](./SMNdatosradiacion.html) (Version 21.06.20)
 <br>
-* [Descargar Jupyter notebook](./SMNdatosradiacion.ipynb) (Version 20.06.20)
+* [Descargar Jupyter notebook](./SMNdatosradiacion.ipynb) (Version 21.06.20)
 <br>
-* [Descargar datos de radiación en CSV (ejemplo)](./datosRadiacion.csv) (Version 20.06.20)
+* [Descargar datos de radiación en CSV](./datosRadiacion.csv) (ejemplo)<br>
+Datos correspondientes a Buenos Aires y Ushuaia (01.02.18 - 28.02.18).
 
 
 

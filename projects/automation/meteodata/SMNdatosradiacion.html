@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Untitled</title>
+<title>SMNdatosradiacion</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13098,14 +13098,31 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Cargar librerías</span>
 <span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">date</span><span class="p">,</span> <span class="n">timedelta</span>
-<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span>  <span class="n">mkdir</span><span class="p">,</span> <span class="n">rmdir</span><span class="p">,</span> <span class="n">remove</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span>  <span class="n">mkdir</span><span class="p">,</span> <span class="n">rmdir</span><span class="p">,</span> <span class="n">remove</span><span class="p">,</span> <span class="n">path</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definir fechas</span>
+<span class="n">sdate</span> <span class="o">=</span> <span class="n">date</span><span class="p">(</span><span class="mi">2018</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>   <span class="c1"># fecha de inicio (año, mes, día)</span>
+<span class="n">edate</span> <span class="o">=</span> <span class="n">date</span><span class="p">(</span><span class="mi">2018</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">28</span><span class="p">)</span>   <span class="c1"># fecha de fin (año, mes, día)</span>
+
+<span class="n">delta</span> <span class="o">=</span> <span class="n">edate</span> <span class="o">-</span> <span class="n">sdate</span>
 </pre></div>
 
     </div>
@@ -13119,13 +13136,8 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Descarga de datos</span>
-<span class="n">dir1</span> <span class="o">=</span> <span class="s2">&quot;radiacion&quot;</span> <span class="c1">#carpeta de destino de los archivos</span>
-<span class="n">mkdir</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">dir1</span><span class="p">))</span> 
-
-<span class="n">sdate</span> <span class="o">=</span> <span class="n">date</span><span class="p">(</span><span class="mi">2019</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>   <span class="c1"># fecha de inicio (año, mes, día)</span>
-<span class="n">edate</span> <span class="o">=</span> <span class="n">date</span><span class="p">(</span><span class="mi">2019</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>   <span class="c1"># fecha de fin (año, mes, día)</span>
-
-<span class="n">delta</span> <span class="o">=</span> <span class="n">edate</span> <span class="o">-</span> <span class="n">sdate</span>
+<span class="nb">dir</span> <span class="o">=</span> <span class="s2">&quot;radiacion&quot;</span> <span class="c1">#carpeta de destino de los archivos</span>
+<span class="n">mkdir</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">dir</span><span class="p">))</span> 
 
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">delta</span><span class="o">.</span><span class="n">days</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
     <span class="n">date</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sdate</span> <span class="o">+</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">i</span><span class="p">))</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
@@ -13134,10 +13146,33 @@ div#notebook {
     <span class="k">if</span> <span class="s1">&#39;El archivo no existe.&#39;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">date</span> <span class="o">+</span> <span class="s2">&quot; does not exist&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="n">dir1</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span> <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="nb">dir</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span> <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>20180209 does not exist
+20180210 does not exist
+20180211 does not exist
+20180212 does not exist
+20180213 does not exist
+20180228 does not exist
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13148,16 +13183,20 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Combinación de archivos</span>
-<span class="n">out1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Horario&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_Ush[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_Ush[W/m2]&#39;</span><span class="p">])</span>
+<span class="n">out</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Horario&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_Ush[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_Ush[W/m2]&#39;</span><span class="p">])</span>
 
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">delta</span><span class="o">.</span><span class="n">days</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
     <span class="n">date</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sdate</span> <span class="o">+</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">i</span><span class="p">))</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-    <span class="n">df2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="n">dir1</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">index_col</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="nb">dir</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span>  <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">):</span>
+        <span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="nb">dir</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">index_col</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
                     <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Horario&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_BsAs[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Global_Ush[W/m2]&#39;</span><span class="p">,</span> <span class="s1">&#39;Difusa_Ush[W/m2]&#39;</span><span class="p">])</span>
-    <span class="n">out1</span> <span class="o">=</span> <span class="n">out1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df2</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df1</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">date</span> <span class="o">+</span> <span class="s2">&quot; does not exist&quot;</span><span class="p">)</span>
+                           
     
-<span class="n">display</span><span class="p">(</span><span class="n">out1</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-<span class="n">display</span><span class="p">(</span><span class="n">out1</span><span class="o">.</span><span class="n">tail</span><span class="p">())</span>
+<span class="n">display</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+<span class="n">display</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">tail</span><span class="p">())</span>
 </pre></div>
 
     </div>
@@ -13167,6 +13206,22 @@ div#notebook {
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>20180209 does not exist
+20180210 does not exist
+20180211 does not exist
+20180212 does not exist
+20180213 does not exist
+20180228 does not exist
+</pre>
+</div>
+</div>
 
 <div class="output_area">
 
@@ -13203,43 +13258,43 @@ div#notebook {
   <tbody>
     <tr>
       <th>0</th>
-      <td>2019-01-01 00:01:00</td>
-      <td>-2.349</td>
-      <td>-2.187</td>
-      <td>39.558</td>
-      <td>35.414</td>
+      <td>2018-02-01 00:01:00</td>
+      <td>-2.758</td>
+      <td>-3.38</td>
+      <td>8.835</td>
+      <td>-5.732</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-01-01 00:02:00</td>
-      <td>-2.349</td>
-      <td>-1.988</td>
-      <td>38.956</td>
-      <td>33.758</td>
+      <td>2018-02-01 00:02:00</td>
+      <td>-2.758</td>
+      <td>-3.38</td>
+      <td>9.237</td>
+      <td>-4.204</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-01-01 00:03:00</td>
-      <td>-2.349</td>
-      <td>-2.584</td>
-      <td>37.349</td>
-      <td>31.847</td>
+      <td>2018-02-01 00:03:00</td>
+      <td>-2.758</td>
+      <td>-3.38</td>
+      <td>9.639</td>
+      <td>-3.057</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-01-01 00:04:00</td>
-      <td>-2.349</td>
-      <td>-2.584</td>
-      <td>36.345</td>
-      <td>30.573</td>
+      <td>2018-02-01 00:04:00</td>
+      <td>-2.758</td>
+      <td>-3.38</td>
+      <td>9.237</td>
+      <td>-2.420</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-01-01 00:05:00</td>
-      <td>-2.349</td>
-      <td>-2.584</td>
-      <td>36.145</td>
-      <td>29.682</td>
+      <td>2018-02-01 00:05:00</td>
+      <td>-2.758</td>
+      <td>-3.38</td>
+      <td>8.233</td>
+      <td>-3.439</td>
     </tr>
   </tbody>
 </table>
@@ -13282,44 +13337,44 @@ div#notebook {
   </thead>
   <tbody>
     <tr>
-      <th>10061</th>
-      <td>2019-01-07 23:54:00</td>
-      <td>-3.064</td>
-      <td>-3.380</td>
-      <td>17.068</td>
-      <td>14.268</td>
+      <th>31631</th>
+      <td>2018-02-27 23:54:00</td>
+      <td>-2.145</td>
+      <td>-1.988</td>
+      <td>-0.402</td>
+      <td>-14.013</td>
     </tr>
     <tr>
-      <th>10062</th>
-      <td>2019-01-07 23:55:00</td>
-      <td>-3.064</td>
-      <td>-3.380</td>
-      <td>16.265</td>
-      <td>13.631</td>
+      <th>31632</th>
+      <td>2018-02-27 23:55:00</td>
+      <td>-2.349</td>
+      <td>-1.988</td>
+      <td>-0.602</td>
+      <td>-13.631</td>
     </tr>
     <tr>
-      <th>10063</th>
-      <td>2019-01-07 23:56:00</td>
-      <td>-2.758</td>
-      <td>-3.380</td>
-      <td>15.663</td>
-      <td>13.121</td>
+      <th>31633</th>
+      <td>2018-02-27 23:56:00</td>
+      <td>-2.349</td>
+      <td>-1.988</td>
+      <td>-0.602</td>
+      <td>-13.376</td>
     </tr>
     <tr>
-      <th>10064</th>
-      <td>2019-01-07 23:57:00</td>
-      <td>-2.758</td>
-      <td>-3.380</td>
-      <td>15.060</td>
-      <td>12.611</td>
+      <th>31634</th>
+      <td>2018-02-27 23:57:00</td>
+      <td>-2.349</td>
+      <td>-1.988</td>
+      <td>-0.602</td>
+      <td>-13.758</td>
     </tr>
     <tr>
-      <th>10065</th>
-      <td>2019-01-07 23:58:00</td>
-      <td>-2.758</td>
-      <td>-3.181</td>
-      <td>14.659</td>
-      <td>12.102</td>
+      <th>31635</th>
+      <td>2018-02-27 23:58:00</td>
+      <td>-2.349</td>
+      <td>-1.988</td>
+      <td>-0.602</td>
+      <td>-12.994</td>
     </tr>
   </tbody>
 </table>
@@ -13338,7 +13393,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Estandarización</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">out1</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">out</span>
 
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Horario&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Horario&#39;</span><span class="p">],</span> <span class="nb">format</span> <span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span> 
 
@@ -13360,17 +13415,17 @@ div#notebook {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 10066 entries, 0 to 10065
+RangeIndex: 31636 entries, 0 to 31635
 Data columns (total 5 columns):
  #   Column             Non-Null Count  Dtype         
 ---  ------             --------------  -----         
- 0   Horario            10066 non-null  datetime64[ns]
- 1   Global_BsAs[W/m2]  10066 non-null  float64       
- 2   Difusa_BsAs[W/m2]  10066 non-null  float64       
- 3   Global_Ush[W/m2]   10066 non-null  float64       
- 4   Difusa_Ush[W/m2]   10066 non-null  float64       
+ 0   Horario            31636 non-null  datetime64[ns]
+ 1   Global_BsAs[W/m2]  31636 non-null  float64       
+ 2   Difusa_BsAs[W/m2]  31636 non-null  float64       
+ 3   Global_Ush[W/m2]   30198 non-null  float64       
+ 4   Difusa_Ush[W/m2]   30198 non-null  float64       
 dtypes: datetime64[ns](1), float64(4)
-memory usage: 393.3 KB
+memory usage: 1.2 MB
 None
 </pre>
 </div>
@@ -13386,17 +13441,44 @@ None
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Borra archivos anteriores y exporta la tabla</span>
-<span class="n">file1</span> <span class="o">=</span> <span class="s1">&#39;datosRadiacion.csv&#39;</span> <span class="c1">#nombre del archivo de destino</span>
+<span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;datosRadiacion.csv&#39;</span> <span class="c1">#nombre del archivo de destino</span>
 
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">file1</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> 
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> 
 
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">delta</span><span class="o">.</span><span class="n">days</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
     <span class="n">date</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">sdate</span> <span class="o">+</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="n">i</span><span class="p">))</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
-    <span class="n">remove</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="n">dir1</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">)</span>
-<span class="n">rmdir</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">dir1</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="nb">dir</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span>  <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">):</span>
+        <span class="n">remove</span><span class="p">(</span><span class="s1">&#39;./&#39;</span> <span class="o">+</span> <span class="nb">dir</span> <span class="o">+</span> <span class="s1">&#39;/&#39;</span> <span class="o">+</span> <span class="n">date</span> <span class="o">+</span> <span class="s1">&#39;.txt&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">date</span> <span class="o">+</span> <span class="s2">&quot; does not exist&quot;</span><span class="p">)</span>
+        
+<span class="n">rmdir</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">dir</span><span class="p">))</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>20180209 does not exist
+20180210 does not exist
+20180211 does not exist
+20180212 does not exist
+20180213 does not exist
+20180228 does not exist
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
