@@ -7,8 +7,9 @@ I tried performing a few exercises in Python for downloading, formatting, and di
 <br>
 
 ## Available notes
-* [Servicio Meteorológico Nacional](./meteodata/mainmeteodata.md) 
+* [Servicio Meteorológico Nacional](./meteodata/mainmeteodata.md) (Actualización: 21.06.20)
 <br>
+* [Despacho de Renovables de Argentina](./renovables/mainrenovables.md) (Actualización: 26.06.20)
 
 
 ## Links of interest
