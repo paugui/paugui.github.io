@@ -13,7 +13,7 @@ Disponible desde el 1.3.20, puede variar en el futuro.
 * [Descargar Jupyter notebook](./DespachoRenovables.ipynb) (Version 26.06.20)
 <br>
 * [Descargar datos horarios en CSV](./datosRenovables.csv) (ejemplo) <br>
-Datos correspondientes a despacho de Renovables de Argentina (01.02.20 - 08.06.20).
+Datos correspondientes a despacho de Renovables de Argentina (01.06.20 - 08.06.20).
 
 
 ## Links of interest
