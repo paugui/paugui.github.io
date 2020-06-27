@@ -1,6 +1,7 @@
 # IPCC Guidelines
 
 ## Basic information
+
 <span style="color: #008080">
 
 |  | IPCC Guidelines |
