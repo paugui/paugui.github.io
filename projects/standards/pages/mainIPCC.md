@@ -2,9 +2,7 @@
 
 ## Basic information
 
-<span style="color: #008080">
-
-|  | IPCC Guidelines |
+|  |  |
 |-|-|
 | **Year** | 2006 |
 | **Developer** | Intergovernmental Panel on Climate Change  |
@@ -19,7 +17,6 @@
 | **Emissions reduction** | No |
 | **Emissions compensation** | No |
 
-</span>
 
 ## Resources
 [How to Review IPCC Assessment Reports: Webinars and Guidance for Climate Experts](https://unccelearn.org/course/view.php?id=101&page=overview) <br>
