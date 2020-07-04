@@ -16,7 +16,7 @@
 ## Buildings 
 * LEED
 * BREEAM
-* Passiv house
+* Passive house
 
 
 ## Sustainability
