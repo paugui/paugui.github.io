@@ -1,8 +1,8 @@
 # Standards & Methodologies
 
 ## Climate Change
-* IPCC Guidelines
-* GHG Protocol
+* [IPCC Guidelines](./pages/mainIPCC.md)
+* [GHG Protocol](./pages/mainGHGprotocol.md)
 * Community-Scale Greenhouse Gas Emission Inventories (GPC)
 * Carbon Disclosure Project (CDP)
 * PAS 2050

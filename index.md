@@ -1,5 +1,21 @@
 # Projects
 
+<div align="right"><sub>Last update: 27.06.20</sub></div>
+
+---
+## [Standards & Methodologies](./projects/standards/mainstandards.md)
+
+Resume of different standards and methodologies related with Sustainability, Climate Change, Energy, Buildings, etc.
+<br><br>
+
+<div align="right"><sub>Last update: 27.06.20</sub></div>
+
+---
+## [Databases](./projects/databases/maindatabases.md)
+
+Collection of databases that I have found during my research activities.
+<br><br>
+
 <div align="right"><sub>Last update: 26.06.20</sub></div>
 
 ---
