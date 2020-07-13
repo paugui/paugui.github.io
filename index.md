@@ -1,5 +1,25 @@
 # Projects
 
+<div align="right"><sub>Last update: 13.07.20</sub></div>
+
+---
+## [Python for Data Science](./projects/python/mainpython.md)
+
+My learning notes.
+<br>
+* [Basic Python](./projects/python/basicpython/mainbasic.md) 
+<br>
+* [Library: NumPy](./projects/python/numpy/mainnumpy.md)
+<br>
+* [Library: Pandas](./projects/python/pandas/mainpandas.md) 
+<br>
+* [Library: MatPlotLib](./projects/python/matplotlib/mainplt.md)
+<br>
+* [Library: Seaborn](./projects/python/seaborn/mainseaborn.md) 
+<br>
+* [Library: SciKit-Learn](./projects/python/scikit/mainscikit.md) 
+<br><br>
+
 <div align="right"><sub>Last update: 04.07.20</sub></div>
 
 ---
@@ -26,24 +46,6 @@ Exercises of data collection.
 * [Servicio Meteorológico Nacional](./projects/automation/meteodata/mainmeteodata.md)
 <br>
 * [Despacho de Renovables en Argentina](./projects/automation/renovables/mainrenovables.md) 
-<br><br>
-
-<div align="right"><sub>Last update: 14.05.20</sub></div>
-
----
-## [Python for Data Science](./projects/python/mainpython.md)
-
-My learning notes.
-<br>
-* [Basic Python](./projects/python/basicpython/mainbasic.md) 
-<br>
-* [Library: NumPy](./projects/python/numpy/mainnumpy.md)
-<br>
-* [Library: Pandas](./projects/python/pandas/mainpandas.md) 
-<br>
-* [Library: MatPlotLib](./projects/python/matplotlib/mainplt.md)
-<br>
-* [Library: Seaborn](./projects/python/seaborn/mainseaborn.md) 
 <br><br>
 
 <div align="right"><sub>Last update: 27.04.20</sub></div>

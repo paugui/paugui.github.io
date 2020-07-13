@@ -1,4 +1,4 @@
-### Python for Data Science
+# Python for Data Science
 
 ## Information
 During my learning process, I usually take notes of code syntaxis, functions, examples, etc.
@@ -21,6 +21,9 @@ Hope you can make a good use of it!
 <br>
 
 * [Library: Seaborn](./seaborn/mainseaborn.md) 
+<br>
+
+* [Library: SciKit-Learn](./scikit/mainscikit.md) 
 <br><br><br>
 
 ## Links of interest

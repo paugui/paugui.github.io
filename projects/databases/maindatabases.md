@@ -30,6 +30,18 @@ Alcance: 01.03.20 - 26.06.20 | Formato: CSV | Tamaño: 3.22 MB <br>
 Fuente: [CAMMESA](https://despachorenovables.cammesa.com/renovables/)
 <br><br>
 
+### Páginas de bases de datos
+[CAMMESA](https://portalweb.cammesa.com/memnet1/Pages/descargas.aspx)<br>
+[ENARGAS](https://www.enargas.gob.ar/secciones/transporte-y-distribucion/datos-operativos-sec.php?sec=3)<br>
+[Secretaría de Energía](http://datos.minem.gob.ar/)<br>
+<br><br>
 
+## World
 
-## Links of interest
+### Open data web pages
+[World bank](https://data.worldbank.org/)<br>
+[International Energy Agency (IEA)](https://www.iea.org/data-and-statistics?country=WORLD&fuel=Energy%20supply&indicator=Total%20primary%20energy%20supply%20(TPES)%20by%20source)<br>
+[United Nations (UN)](https://data.un.org/)<br>
+[OECD](https://www.oecd-ilibrary.org/economics/data/oecd-stat/data-warehouse_data-00900-en)<br>
+[Eurostat](https://ec.europa.eu/eurostat/web/energy/data/database)<br>
+[Our world in data](https://ourworldindata.org)<br>
