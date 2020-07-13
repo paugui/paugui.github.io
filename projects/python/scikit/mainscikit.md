@@ -19,14 +19,14 @@ In linear regression, the relationships are modeled using linear predictor funct
 <br>
 * [Download Jupyter notebook](./regression/Lineal_regression.ipynb) (Version 27.05.20)
 <br>
-* [Diabetes database](./regression/diabetes.csv) (Version 27.05.20)
+* [Download database. Diabetes (CSV)](./regression/diabetes.csv) (Version 27.05.20)
 
 #### Lineal regression model applied to gas consumption 
 * [Jupyter visualization](./regression/RegresionLinealGas.html) (Version 13.07.20)
 <br>
 * [Download Jupyter notebook](./regression/RegresionLinealGas.ipynb) (Version 13.07.20)
 <br><br>
-* [Download database.Climate of Buenos Aires (CSV)](./regression/POWER_SinglePoint_Daily_19930101_20200712_34d59S_58d42W_cb0244f8.csv) (Version 13.07.20) <br>
+* [Download database. Climate of Buenos Aires (CSV)](./regression/POWER_SinglePoint_Daily_19930101_20200712_34d59S_58d42W_cb0244f8.csv) (Version 13.07.20) <br>
 Source: [NASA (POWER Data Access Viewer)](https://power.larc.nasa.gov/data-access-viewer/) <br><br>
 * [Download database. Gas consumption (Excel)](./regression/Todos_010601a-Cuadro_I_5_1a.xlsx) (Version 13.07.20)
 <br>
