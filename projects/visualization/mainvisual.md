@@ -13,6 +13,8 @@ In the world of Big Data, data visualization tools and technologies are essentia
 <script type='text/javascript'>
 var divElement = document.getElementById('viz1594723067407');
 var vizElement = divElement.getElementsByTagName('object')[0];
+var vizElement.style.width='500px';vizElement.style.height='700px';
+
 ```if ( divElement.offsetWidth > 800 ) {
     vizElement.style.width='500px';vizElement.style.height='727px';
 } else if ( divElement.offsetWidth > 500 ) {
