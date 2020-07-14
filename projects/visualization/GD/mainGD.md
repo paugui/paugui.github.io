@@ -5,7 +5,7 @@
 <script type='text/javascript'>
 var divElement = document.getElementById('viz1594731587915');
 var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width='470px';vizElement.style.height='727px';
+vizElement.style.width='500px';vizElement.style.height='727px';
 var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -18,7 +18,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 <script type='text/javascript'>
 var divElement = document.getElementById('viz1594731307790');
 var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width='470';vizElement.style.height='727px';
+vizElement.style.width='500';vizElement.style.height='727px';
 var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
