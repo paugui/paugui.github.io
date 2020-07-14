@@ -1,5 +1,14 @@
 # Projects
 
+<div align="right"><sub>Last update: 14.07.20</sub></div>
+
+---
+## [Data visualization](./projects/visualization/mainvisual.md)
+
+Visualizations of different topics.
+* [Confort temperature & Day-Degrees](./projects/visualization/GD/mainGD.md)
+<br>
+
 <div align="right"><sub>Last update: 13.07.20</sub></div>
 
 ---

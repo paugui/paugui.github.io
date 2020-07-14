@@ -4,6 +4,8 @@ La temperatura de confort es la que los usuarios identifican como sensación de 
 
 Para mantener un espacio interior a una temperatura estable en la que podamos sentirnos a gusto, se necesita muchas veces de agregar o quitar calor. Esto es debido a los intercambios que se producen entre el espacio interior y el exterior, o el espacio interior y los elementos que se encuentran dentro de él.
 
+ ![temperatura de confort](./tempconfort.png)
+
 Si nos centramos en los intercambios entre el espacio interior y el exterior, un factor que resulta clave es conocer los grados-día característicos del clima de un determinado lugar, para poder dimensionar cuánto calor necesitaremos agregar o quitar. Los grados-día dan cuenta de cuántos grados del ambiente exterior necesitaremos compensar, para alcanzar la situación de confort interior.
 Por ejemplo, si nuestra temperatura de confort fuera de 20ºC para la temporada invernal, pero la media diaria fuera de 8ºC, necesitaría compensar 12ºC para mantener la temperatura adecuada en el interior.
 
@@ -23,7 +25,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 </div>
 
-<br><br>
+<br>
 
 <div>
 <div class='tableauPlaceholder' id='viz1594731307790' style='position: relative'>
