@@ -10,7 +10,7 @@ if ( divElement.offsetWidth > 800 ) {
     vizElement.style.width='500px';vizElement.style.height='727px';
 } else if ( divElement.offsetWidth > 500 ) {
     vizElement.style.width='500px';vizElement.style.height='727px';
-    } else { vizElement.style.width='100%';vizElement.style.height='1077px';}
+    } else { vizElement.style.width='500px';vizElement.style.height='725px';}
  var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
