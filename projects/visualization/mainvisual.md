@@ -10,10 +10,10 @@ In the world of Big Data, data visualization tools and technologies are essentia
 var divElement = document.getElementById('viz1594723067407');
 var vizElement = divElement.getElementsByTagName('object')[0];
 if ( divElement.offsetWidth > 800 ) {
-    vizElement.style.width='100%';vizElement.style.height='827px';
+    vizElement.style.width='500px';vizElement.style.height='700px';
 } else if ( divElement.offsetWidth > 500 ) {
-    vizElement.style.width='100%';vizElement.style.height='827px';
-    } else { vizElement.style.width='100%';vizElement.style.height='977px';}
+    vizElement.style.width='500px';vizElement.style.height='700px';
+    } else { vizElement.style.width='500px';vizElement.style.height='700px';}
  var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);
