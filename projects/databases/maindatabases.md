@@ -24,6 +24,9 @@ Fuente: [Servicio Meteorológico Nacional](https://www.smn.gob.ar/descarga-de-da
 <br><br>
 
 ### Datos de Energía
+* [Potencia instalada en el Sistema Argentino de Interconexión (SADI)]
+
+
 * [Despacho de renovables de la República Argentina](https://ln2.sync.com/dl/7d32d30b0/8c334z5v-8ae4534s-weden6a5-wk2474yd) (Actualización: 26.06.20) <br>
 Datos correspondientes a despacho de Renovables de Argentina. <br>
 Alcance: 01.03.20 - 26.06.20 | Formato: CSV | Tamaño: 3.22 MB <br>

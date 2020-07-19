@@ -7,10 +7,11 @@ I tried performing a few exercises in Python for downloading, formatting, and di
 <br>
 
 ## Available notes
+* [Datos operativos eléctricos de Argentina](./electricidad/mainelectricidad.md) (Actualización: 16.07.20)
+<br> <br>
 * [Servicio Meteorológico Nacional](./meteodata/mainmeteodata.md) (Actualización: 21.06.20)
 <br> <br>
 * [Despacho de Renovables de Argentina](./renovables/mainrenovables.md) (Actualización: 26.06.20)
-
 
 ## Links of interest
 [Python Official website](https://www.python.org/)
