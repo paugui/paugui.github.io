@@ -7,10 +7,15 @@ Los informes mensuales contienen datos detallados de demanda, generación, poten
 Disponible desde el 10.2015 hasta el 09.2020, con posibles actualizaciones mensuales.
 
 ![Generación en Argentina](./Generacion.png)
+![Generación Renovable en Argentina](./Renovable.png)
+
 
 ## Códigos disponibles
 
 ### Descargar informes mensuales
+
+Descargar de manera automatizada los informes mensuales de datos operativos eléctricos de la Compañía Administradora del Mercado Mayorista Eléctrico (CAMMESA) de Argentina.
+Los informes contienen datos detallados de demanda, generación, potencia instalada, consumo de combustible combustibles y precios del Sistema Argentino de Interconexión (SADI).
 
 * [Visualización en Jupyter](./files/Descargardatos.html) (Version 18.07.20)
 <br>
