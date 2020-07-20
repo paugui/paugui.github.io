@@ -3,6 +3,14 @@
 <div align="right"><sub>Last update: 20.07.20</sub></div>
 
 ---
+## [Databases](./projects/databases/maindatabases.md)
+
+Collection of databases that I have found during my research activities.
+<br><br>
+
+<div align="right"><sub>Last update: 20.07.20</sub></div>
+
+---
 ## [Automation for data collection](./projects/automation/mainautomation.md)
 
 Exercises of data collection.
@@ -49,14 +57,6 @@ My learning notes.
 ## [Standards & Methodologies](./projects/standards/mainstandards.md)
 
 Resume of different standards and methodologies related with Sustainability, Climate Change, Energy, Buildings, etc.
-<br><br>
-
-<div align="right"><sub>Last update: 04.07.20</sub></div>
-
----
-## [Databases](./projects/databases/maindatabases.md)
-
-Collection of databases that I have found during my research activities.
 <br><br>
 
 
