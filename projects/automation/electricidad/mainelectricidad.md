@@ -6,6 +6,8 @@ Los informes mensuales contienen datos detallados de demanda, generación, poten
 
 Disponible desde el 10.2015 hasta el 09.2020, con posibles actualizaciones mensuales.
 
+### Visualizaciones realizadas con los datos
+
 ![Generación en Argentina](./Generacion.png)
 ![Generación Renovable en Argentina](./Renovable.png)
 

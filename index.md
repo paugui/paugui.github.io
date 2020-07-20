@@ -1,5 +1,19 @@
 # Projects
 
+<div align="right"><sub>Last update: 20.07.20</sub></div>
+
+---
+## [Automation for data collection](./projects/automation/mainautomation.md)
+
+Exercises of data collection.
+<br>
+* [Datos operativos eléctricos de Argentina](./projects/automation/electricidad/mainelectricidad.md)
+<br>
+* [Servicio Meteorológico Nacional](./projects/automation/meteodata/mainmeteodata.md)
+<br>
+* [Despacho de Renovables en Argentina](./projects/automation/renovables/mainrenovables.md) 
+<br><br>
+
 <div align="right"><sub>Last update: 14.07.20</sub></div>
 
 ---
@@ -45,17 +59,6 @@ Resume of different standards and methodologies related with Sustainability, Cli
 Collection of databases that I have found during my research activities.
 <br><br>
 
-<div align="right"><sub>Last update: 26.06.20</sub></div>
-
----
-## [Automation for data collection](./projects/automation/mainautomation.md)
-
-Exercises of data collection.
-<br>
-* [Servicio Meteorológico Nacional](./projects/automation/meteodata/mainmeteodata.md)
-<br>
-* [Despacho de Renovables en Argentina](./projects/automation/renovables/mainrenovables.md) 
-<br><br>
 
 <div align="right"><sub>Last update: 27.04.20</sub></div>
 
